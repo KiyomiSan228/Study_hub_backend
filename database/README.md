@@ -8,4 +8,4 @@
 2. Выполнить скрипты из 'migrations' по порядку номеров.
 3. Для разработки можно добавить тестовых пользователей: 'test_data/test_data.sql'.
 
-PostgreSQL. ERD — [`ERD_StudyHub.png`](ERD_StudyHub.png).
+PostgreSQL. ERD — [`ERD_StudyHub.png`](ERD_studyhub.png).
