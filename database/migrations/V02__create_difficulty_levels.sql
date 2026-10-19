@@ -1,4 +1,4 @@
--- Справочник уровней сложности.
+-- Уровни сложности.
 create table difficulty_levels(
     id     smallint primary key,
     name   text not null unique,
