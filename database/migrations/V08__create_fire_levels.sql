@@ -1,4 +1,4 @@
--- Справочник состояний костра. Одинаков для всех пользователей.
+-- Состояния костра.
 create table fire_levels(
     id       smallint primary key,
     name     varchar(20) not null unique,

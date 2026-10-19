@@ -1,4 +1,4 @@
--- Справочник статусов задачи.
+-- Статусы задачи.
 create table task_statuses(
     id   smallint primary key,
     name text not null unique
