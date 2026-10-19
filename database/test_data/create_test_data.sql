@@ -1,11 +1,11 @@
 -- Тестовые данные.
 -- Даты считаются от сегодняшнего дня, поэтому данные выглядят свежими в любой день.
 
--- Пользователи
+-- Пользователи (у всех пароль Demo12345, хранится bcrypt-хэш)
 insert into users (name, email, phone, password_hash) values
-    ('Демо-пользователь', 'demo@studyhub.local', '79990000000', 'demo-no-login'),
-    ('Анна Иванова',      'anna@studyhub.local', '79991112233', 'test-1'),
-    ('Пётр Смирнов',      'petr@studyhub.local', '79994445566', 'test-2');
+    ('Демо-пользователь', 'demo@studyhub.local', '79990000000', '$2a$11$GyhNBrGacHSdCDJy8ailcuHgIGFQ5z7y/AQ0WQs/ZfmWOYq8HpLT2'),
+    ('Анна Иванова',      'anna@studyhub.local', '79991112233', '$2a$11$GyhNBrGacHSdCDJy8ailcuHgIGFQ5z7y/AQ0WQs/ZfmWOYq8HpLT2'),
+    ('Пётр Смирнов',      'petr@studyhub.local', '79994445566', '$2a$11$GyhNBrGacHSdCDJy8ailcuHgIGFQ5z7y/AQ0WQs/ZfmWOYq8HpLT2');
 
 -- Костры: у демо-пользователя горит, у остальных потух
 insert into fires (user_id, logs)
