@@ -3,7 +3,7 @@ create table users(
     id            uuid primary key default uuidv7(),
     name          varchar(50) not null,
     email         text not null unique,
-    phone         varchar(11) not null unique,
+    phone         varchar(12) not null unique,
     password_hash text not null,
     created_at    timestamptz not null default now()
 );
